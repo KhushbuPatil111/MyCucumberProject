@@ -1,6 +1,8 @@
 package stepDefinitions;
 
 import java.util.concurrent.TimeUnit;
+
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Given;
@@ -15,12 +17,16 @@ public class LoginStepDef extends BaseClass {
 	@Given("open nopCommerse website")
 	public void open_nopCommerse_website() {
 		
+		logger = logger.getLogger("nopCommerse");
+		PropertyConfigurator.configure("log4j.properties");
+		
 		System.setProperty("webdriver.chrome.driver",
 							"D:\\Eclipse workspace\\Driver\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		lp = new LoginPage(driver);
 		
+		logger.info("********Launching URL********");
 		driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		System.out.println("User is on login page");
@@ -35,7 +41,7 @@ public class LoginStepDef extends BaseClass {
 		
 		//WebElement pass = driver.findElement(By.id("Password"));
 		//pass.sendKeys(string2);
-		
+		logger.info("********Entering Username and Password*********");
 		lp.set_username(string);
 		lp.set_password(string2);
 			    
@@ -46,6 +52,7 @@ public class LoginStepDef extends BaseClass {
 		
 		//WebElement button = driver.findElement(By.xpath("//input[@type='submit']"));
 		//button.click();
+		logger.info("******Clicking on Login Button******");
 		lp.click_loginbutton();
 	   
 	}
@@ -56,7 +63,7 @@ public class LoginStepDef extends BaseClass {
 		String actualtitle = driver.getTitle();
 		System.out.println("Page Title is:"+ actualtitle);
 		String expectedtitle = "Dashboard / nopCommerce administration";
-		
+		logger.info("******Verifying title of the page********");
 		if(actualtitle.equals(expectedtitle))
 		{
 			System.out.println("User is logged in Successfully!");
@@ -65,6 +72,7 @@ public class LoginStepDef extends BaseClass {
 		{
 			System.out.println("User is not logged in");
 		}
+		logger.info("******Closing the browser******");
 	   driver.quit();
 	}
 	
