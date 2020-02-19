@@ -23,6 +23,7 @@ public class LoginStepDef extends BaseClass {
 		
 		driver.get("https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		System.out.println("User is on login page");
 	}
 
 	@When("user enters {string} and {string}")
