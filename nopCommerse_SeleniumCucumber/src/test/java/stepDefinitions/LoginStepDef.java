@@ -39,6 +39,7 @@ public class LoginStepDef extends BaseClass {
 			System.setProperty("webdriver.ie.driver", configProp.getProperty("iepath"));
 			driver = new InternetExplorerDriver();
 		}
+		
 		loginPage = new LoginPage(driver);
 	}
 

@@ -153,3 +153,33 @@
 2020-02-20 11:22:53,083 [main] INFO nopCommerse - ******Clicking on Login Button******
 2020-02-20 11:22:53,694 [main] INFO nopCommerse - ******Verifying title of the page********
 2020-02-20 11:22:53,694 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:08:00,161 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:08:04,314 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin
+2020-02-20 12:08:06,016 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:08:07,274 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:08:07,275 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:08:09,565 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:08:13,474 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin
+2020-02-20 12:08:14,855 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:08:16,038 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:08:16,039 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:08:18,343 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:08:22,254 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin123
+2020-02-20 12:08:23,701 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:08:24,923 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:08:24,924 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:31:23,373 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:31:27,486 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin
+2020-02-20 12:31:28,473 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:31:29,560 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:31:29,560 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:31:32,056 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:31:35,888 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin
+2020-02-20 12:31:36,806 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:31:37,863 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:31:37,863 [main] INFO nopCommerse - ******Closing the browser******
+2020-02-20 12:31:39,938 [main] INFO nopCommerse - ********Launching URL********
+2020-02-20 12:31:43,509 [main] INFO nopCommerse - ********Entering Username and Password*********admin@yourstore.comadmin123
+2020-02-20 12:31:44,458 [main] INFO nopCommerse - ******Clicking on Login Button******
+2020-02-20 12:31:45,532 [main] INFO nopCommerse - ******Verifying title of the page********
+2020-02-20 12:31:45,532 [main] INFO nopCommerse - ******Closing the browser******
